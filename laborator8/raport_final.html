@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abalone</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1><pandas.io.formats.style.Styler object at 0x000001CB9EDDD550></h1>
+    <style type="text/css">
+#T_a4ca8_row0_col5, #T_a4ca8_row2_col9, #T_a4ca8_row3_col2, #T_a4ca8_row3_col3, #T_a4ca8_row3_col4, #T_a4ca8_row3_col7, #T_a4ca8_row4_col6, #T_a4ca8_row4_col8 {
+  background-color: red;
+}
+#T_a4ca8_row0_col9, #T_a4ca8_row2_col2, #T_a4ca8_row2_col3, #T_a4ca8_row2_col4, #T_a4ca8_row2_col5, #T_a4ca8_row2_col7, #T_a4ca8_row3_col6, #T_a4ca8_row3_col8 {
+  background-color: lightgreen;
+}
+</style>
+<table id="T_a4ca8">
+  <thead>
+    <tr>
+      <th class="blank level0" >&nbsp;</th>
+      <th id="T_a4ca8_level0_col0" class="col_heading level0 col0" >model_name</th>
+      <th id="T_a4ca8_level0_col1" class="col_heading level0 col1" >search_strategy</th>
+      <th id="T_a4ca8_level0_col2" class="col_heading level0 col2" >train_mean_absolute_error</th>
+      <th id="T_a4ca8_level0_col3" class="col_heading level0 col3" >train_mean_squared_error</th>
+      <th id="T_a4ca8_level0_col4" class="col_heading level0 col4" >test_median_absolute_error</th>
+      <th id="T_a4ca8_level0_col5" class="col_heading level0 col5" >test_mean_absolute_error</th>
+      <th id="T_a4ca8_level0_col6" class="col_heading level0 col6" >test_mean_squared_error</th>
+      <th id="T_a4ca8_level0_col7" class="col_heading level0 col7" >test_median_squared_error</th>
+      <th id="T_a4ca8_level0_col8" class="col_heading level0 col8" >fit_time</th>
+      <th id="T_a4ca8_level0_col9" class="col_heading level0 col9" >score_time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="T_a4ca8_level0_row0" class="row_heading level0 row0" >0</th>
+      <td id="T_a4ca8_row0_col0" class="data row0 col0" >Ridge</td>
+      <td id="T_a4ca8_row0_col1" class="data row0 col1" >GridSearchCV</td>
+      <td id="T_a4ca8_row0_col2" class="data row0 col2" >1.574891</td>
+      <td id="T_a4ca8_row0_col3" class="data row0 col3" >4.811220</td>
+      <td id="T_a4ca8_row0_col4" class="data row0 col4" >1.150440</td>
+      <td id="T_a4ca8_row0_col5" class="data row0 col5" >1.583839</td>
+      <td id="T_a4ca8_row0_col6" class="data row0 col6" >4.990950</td>
+      <td id="T_a4ca8_row0_col7" class="data row0 col7" >1.156827</td>
+      <td id="T_a4ca8_row0_col8" class="data row0 col8" >0.005204</td>
+      <td id="T_a4ca8_row0_col9" class="data row0 col9" >0.003809</td>
+    </tr>
+    <tr>
+      <th id="T_a4ca8_level0_row1" class="row_heading level0 row1" >1</th>
+      <td id="T_a4ca8_row1_col0" class="data row1 col0" >Lasso</td>
+      <td id="T_a4ca8_row1_col1" class="data row1 col1" >GridSearchCV</td>
+      <td id="T_a4ca8_row1_col2" class="data row1 col2" >1.631967</td>
+      <td id="T_a4ca8_row1_col3" class="data row1 col3" >5.200067</td>
+      <td id="T_a4ca8_row1_col4" class="data row1 col4" >1.239472</td>
+      <td id="T_a4ca8_row1_col5" class="data row1 col5" >1.639172</td>
+      <td id="T_a4ca8_row1_col6" class="data row1 col6" >5.327815</td>
+      <td id="T_a4ca8_row1_col7" class="data row1 col7" >1.237649</td>
+      <td id="T_a4ca8_row1_col8" class="data row1 col8" >0.005779</td>
+      <td id="T_a4ca8_row1_col9" class="data row1 col9" >0.003601</td>
+    </tr>
+    <tr>
+      <th id="T_a4ca8_level0_row2" class="row_heading level0 row2" >2</th>
+      <td id="T_a4ca8_row2_col0" class="data row2 col0" >Elastic Net</td>
+      <td id="T_a4ca8_row2_col1" class="data row2 col1" >GridSearchCV</td>
+      <td id="T_a4ca8_row2_col2" class="data row2 col2" >1.633478</td>
+      <td id="T_a4ca8_row2_col3" class="data row2 col3" >5.214845</td>
+      <td id="T_a4ca8_row2_col4" class="data row2 col4" >1.242264</td>
+      <td id="T_a4ca8_row2_col5" class="data row2 col5" >1.640372</td>
+      <td id="T_a4ca8_row2_col6" class="data row2 col6" >5.341938</td>
+      <td id="T_a4ca8_row2_col7" class="data row2 col7" >1.241675</td>
+      <td id="T_a4ca8_row2_col8" class="data row2 col8" >0.002600</td>
+      <td id="T_a4ca8_row2_col9" class="data row2 col9" >0.001801</td>
+    </tr>
+    <tr>
+      <th id="T_a4ca8_level0_row3" class="row_heading level0 row3" >3</th>
+      <td id="T_a4ca8_row3_col0" class="data row3 col0" >Decision Tree</td>
+      <td id="T_a4ca8_row3_col1" class="data row3 col1" >GridSearchCV</td>
+      <td id="T_a4ca8_row3_col2" class="data row3 col2" >1.487218</td>
+      <td id="T_a4ca8_row3_col3" class="data row3 col3" >4.492605</td>
+      <td id="T_a4ca8_row3_col4" class="data row3 col4" >1.048981</td>
+      <td id="T_a4ca8_row3_col5" class="data row3 col5" >1.622892</td>
+      <td id="T_a4ca8_row3_col6" class="data row3 col6" >5.363653</td>
+      <td id="T_a4ca8_row3_col7" class="data row3 col7" >1.098127</td>
+      <td id="T_a4ca8_row3_col8" class="data row3 col8" >0.011398</td>
+      <td id="T_a4ca8_row3_col9" class="data row3 col9" >0.002602</td>
+    </tr>
+    <tr>
+      <th id="T_a4ca8_level0_row4" class="row_heading level0 row4" >4</th>
+      <td id="T_a4ca8_row4_col0" class="data row4 col0" >Linear Regression</td>
+      <td id="T_a4ca8_row4_col1" class="data row4 col1" >GridSearchCV</td>
+      <td id="T_a4ca8_row4_col2" class="data row4 col2" >1.574900</td>
+      <td id="T_a4ca8_row4_col3" class="data row4 col3" >4.810657</td>
+      <td id="T_a4ca8_row4_col4" class="data row4 col4" >1.150879</td>
+      <td id="T_a4ca8_row4_col5" class="data row4 col5" >1.583901</td>
+      <td id="T_a4ca8_row4_col6" class="data row4 col6" >4.990843</td>
+      <td id="T_a4ca8_row4_col7" class="data row4 col7" >1.157513</td>
+      <td id="T_a4ca8_row4_col8" class="data row4 col8" >0.001999</td>
+      <td id="T_a4ca8_row4_col9" class="data row4 col9" >0.002201</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
